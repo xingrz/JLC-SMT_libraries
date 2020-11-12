@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10118194-0001LF
+D Micro USB
+F Micro Usb, 2.0 Type b, Rcpt, Smt
+$ENDCMP
+#
+$CMP 105450-0101
+D USB-C 24P Receptacle
+$ENDCMP
+#
+$CMP PRO-OB-440
+F https://www.proant.se/wp-content/uploads/2020/03/OnBoard-SMD-2400-rev1.2-1.pdf
+$ENDCMP
+#
+$CMP SW_XKB_TS-1187A
+D Single Pole Single Throw (SPST) switch, separate symbol
+K switch lever
+F ~
+$ENDCMP
+#
+$CMP TS-1187A-B-A-B
+F A0
+$ENDCMP
+#
+#End Doc Library
