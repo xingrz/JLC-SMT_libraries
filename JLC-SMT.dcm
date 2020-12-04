@@ -19,4 +19,8 @@ $CMP TS-1187A-B-A-B
 F A0
 $ENDCMP
 #
+$CMP XKB_PJ-328A0-B
+F ~
+$ENDCMP
+#
 #End Doc Library
