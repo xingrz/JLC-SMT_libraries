@@ -5,6 +5,16 @@ D Micro USB
 F Micro Usb, 2.0 Type b, Rcpt, Smt
 $ENDCMP
 #
+$CMP ADM7151ACPZ-04
+D 800 mA Ultralow Noise, High PSRR, RF Linear Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM7151.pdf
+$ENDCMP
+#
+$CMP ADM7155ACPZ-04
+D 600 mA, Ultralow Noise, High PSRR, RF Linear Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM7155.pdf
+$ENDCMP
+#
 $CMP PRO-OB-440
 F https://www.proant.se/wp-content/uploads/2020/03/OnBoard-SMD-2400-rev1.2-1.pdf
 $ENDCMP
