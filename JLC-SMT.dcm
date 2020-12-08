@@ -5,7 +5,7 @@ D Micro USB
 F Micro Usb, 2.0 Type b, Rcpt, Smt
 $ENDCMP
 #
-$CMP ADM715xACPZ-04
+$CMP ADM715x
 D Ultralow Noise, High PSRR, RF Linear Regulator
 F https://www.analog.com/media/en/news-marketing-collateral/product-highlight/Low_Dropout_Regulators.pdf
 $ENDCMP
