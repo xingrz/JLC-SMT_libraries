@@ -10,6 +10,10 @@ D Ultralow Noise, High PSRR, RF Linear Regulator
 F https://www.analog.com/media/en/news-marketing-collateral/product-highlight/Low_Dropout_Regulators.pdf
 $ENDCMP
 #
+$CMP ESP-01F
+D Ai-Thinker ESP-01F module
+$ENDCMP
+#
 $CMP PRO-OB-440
 F https://www.proant.se/wp-content/uploads/2020/03/OnBoard-SMD-2400-rev1.2-1.pdf
 $ENDCMP
