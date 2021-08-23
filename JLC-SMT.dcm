@@ -30,6 +30,10 @@ K switch lever
 F ~
 $ENDCMP
 #
+$CMP SiA517DJ
+D Vishay Siliconix SiA517DJ dual N-Channel P-Channel MOSFET
+$ENDCMP
+#
 $CMP TS-1187A-B-A-B
 F A0
 $ENDCMP
