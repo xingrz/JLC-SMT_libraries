@@ -26,6 +26,12 @@ K RF Radio BT ESP ESP32 Espressif external antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
 $ENDCMP
 #
+$CMP OPSCO_SK68XX
+D RGB LED with integrated controller
+K RGB LED NeoPixel Nano addressable
+F https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf
+$ENDCMP
+#
 $CMP PRO-OB-440
 F https://www.proant.se/wp-content/uploads/2020/03/OnBoard-SMD-2400-rev1.2-1.pdf
 $ENDCMP
