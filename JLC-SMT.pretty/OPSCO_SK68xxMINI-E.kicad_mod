@@ -1,0 +1,177 @@
+(footprint "OPSCO_SK68xxMINI-E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "OPSCO reverse-mounted WS2812B-compatible RGB LED")
+	(tags "ws2812 sk68 3528")
+	(property "Reference" "REF**"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "86822390-8dc1-46da-986a-162c697519d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OPSCO_SK68xxMINI-E"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "02616e23-f6ae-409e-bb01-2612a78aba57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e43ab1a-7bea-495b-8a6f-874e5144865b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94bd4e56-f25a-40a7-ad3b-a1ae3e5efe0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff494339-2fd6-464c-8d12-4c3fa817213d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1.8)
+		(end -2 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba43b689-4583-4766-9ab8-6d9c49616fa8")
+	)
+	(fp_line
+		(start -2 -1.8)
+		(end 2 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0637a346-532a-488c-887c-fe1b551a8c75")
+	)
+	(fp_line
+		(start -2 1.8)
+		(end 2 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "983f8086-de0a-4830-a95d-8ad31766c348")
+	)
+	(fp_line
+		(start 2 -1.8)
+		(end 2 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7b58907-a671-430c-8350-ccbb3071a6aa")
+	)
+	(fp_line
+		(start 2 1.8)
+		(end 2 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f42967fb-99de-4284-ab4a-ca12c9add891")
+	)
+	(fp_poly
+		(pts
+			(xy -4.6 1.3) (xy -4.6 1.8) (xy -4.1 1.8)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "4089c293-7fba-4e62-9b75-70437929eba9")
+	)
+	(fp_rect
+		(start -1.7 -1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "f313ebd9-1065-45a4-9576-4c0f428c4638")
+	)
+	(pad "1" smd rect
+		(at -3 0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b37914cf-8ff8-4bfe-b18b-a029d8c9ec96")
+	)
+	(pad "2" smd rect
+		(at -3 -0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e6e3cf48-3272-47ef-b008-d50bd2295095")
+	)
+	(pad "3" smd rect
+		(at 3 -0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b4341148-33d5-4ffd-84bb-1396823fc9d2")
+	)
+	(pad "4" smd rect
+		(at 3 0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "712044cc-4364-45c0-ada5-e2addfdcb09c")
+	)
+	(model "${CUSTOM_DIR}/OPSCO_SK68xxMINI-E.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
